@@ -17,10 +17,10 @@ function Index(props) {
                             </form>
                         </div>
                     : 
-                        <ul>
-                            <li><a href='/login'>Login </a></li>
-                            <li><a href='/register'>Register </a></li>
-                        </ul>
+                        
+                            <button type="button" classname="btn btn-primary"><a href='/login'>Login </a></button>
+                            <button type="button" classname="btn btn-primary"><a href='/register'>Register </a></button>
+                        
                     
             }
         </div>
