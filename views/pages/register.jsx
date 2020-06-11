@@ -8,7 +8,7 @@ function Register(props) {
 
     <DefaultLayout title={props.sidenstitle}>
     <div>
-    <h1>Register</h1>
+    <h1 className="text-center">Register</h1>
         <form method='post' action='/register'>
             <input name='name' placeholder='Name' required />
             <input type='email' name='email' placeholder='Email' required />  
