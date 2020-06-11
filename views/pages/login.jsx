@@ -10,8 +10,8 @@ function Login(props) {
     <div>
     <h1>Login</h1>
         <form className="form-group" method='post' action='/login'>
-          <input type='email' name='email' placeholder='Email' required />  
-          <input type='password' name='password' placeholder='Password' required />
+          <input type="email" className="form-control my-3" id="exampleFormControlInput1" placeholder='Email' required />  
+          <input type="password" className="form-control my-3" id="exampleFormControlInput1"placeholder='Password' required />
           <input type='submit' />  
         </form>
         <a href='/register'>Register</a>
