@@ -18,8 +18,8 @@ function Index(props) {
                         </div>
                     : 
                         <div className="text-center">
-                            <a class="btn btn-success btn-lg ml-3" href='/login'>Login </a>
-                            <a class="btn btn-primary btn-lg ml-3"href='/register'>Register </a>
+                            <a className="btn btn-success btn-lg ml-3" href='/login'>Login </a>
+                            <a className="btn btn-primary btn-lg ml-3"href='/register'>Register </a>
                         </div>
                     
             }

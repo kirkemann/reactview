@@ -17,9 +17,9 @@ function Register(props) {
         </form>
         <div className="row">
           <div className="col-12 text-center">
-            <a className="ml-3" href='/login'>Login</a>
+            <a className="btn btn-danger btn-lg ml-3 my-3" href='/login'>Login</a>
             
-            <a href='/'>Main</a>
+            <a className="btn btn-success btn-lg ml-3 my-3" href='/'>Main</a>
           </div>
         </div>
     </div>
