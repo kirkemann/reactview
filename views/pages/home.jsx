@@ -7,7 +7,7 @@ function Home(props) {
 
     <DefaultLayout>
         <div>
-            <h1>{props.sidenstitle}</h1>
+            <h1 className="text-primary">{props.sidenstitle}</h1>
             {
                 props.userId ?
                         <div>
