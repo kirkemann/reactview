@@ -9,7 +9,7 @@ function Login(props) {
     <DefaultLayout title={props.sidenstitle}>
     <div>
     <h1>Login</h1>
-        <form method='post' action='/login'>
+        <form className="form-group" method='post' action='/login'>
           <input type='email' name='email' placeholder='Email' required />  
           <input type='password' name='password' placeholder='Password' required />
           <input type='submit' />  

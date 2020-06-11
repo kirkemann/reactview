@@ -9,7 +9,7 @@ function Profil(props) {
     <DefaultLayout title={props.sidenstitle}>
     <div>
     <h1>Ret profil</h1>
-        <form method='post' action='/profil'>
+        <form className="form-group" method='post' action='/profil'>
             <input name='name' defaultValue={props.name} required />
             <input  type='email' defaultValue={props.email} required /> 
             <input type='text' name='id' required defaultValue={props.user.id} readOnly />
