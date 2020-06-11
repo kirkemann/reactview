@@ -7,10 +7,10 @@ function Index(props) {
 
     <DefaultLayout>
         <div>
-            <h1>{props.sidenstitle}</h1>
+            <h1 className="text-center text-danger">{props.sidenstitle}</h1>
             {
                 props.userId ?
-                        <div>
+                        <div className="text-center">
                             <a href='/home'>Home</a>
                             <form method='post' action='/logout'>
                                 <button>Logout</button>
