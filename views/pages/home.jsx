@@ -22,9 +22,9 @@ function Home(props) {
                             </div>
 
                             
-                            <div>
-                                <a class="btn btn-success btn-lg ml-3 text-center" href='/'>Main</a>
-                                <a class="btn btn-success btn-lg ml-3text-center" href='./profil'>Ret Profil</a>
+                            <div className="text-center">
+                                <a className="btn btn-success btn-lg ml-3 " href='/'>Main</a>
+                                <a className="btn btn-success btn-lg ml-3 " href='./profil'>Ret Profil</a>
                             </div>
                             <img className="rounded mx-auto d-block" src="/images/aktiviteter-15.jpg" alt="tog"/>
                         </div>  
