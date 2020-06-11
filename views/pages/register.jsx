@@ -16,9 +16,9 @@ function Register(props) {
             <input className="ml-3" type='submit' />  
         </form>
         <div className="row">
-          <div className="col-sm">
-            <a href='/login'>Login</a>
-            <br/>
+          <div className="col-12">
+            <a className="ml-3" href='/login'>Login</a>
+            
             <a href='/'>Main</a>
           </div>
         </div>
