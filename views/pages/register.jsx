@@ -9,11 +9,11 @@ function Register(props) {
     <DefaultLayout title={props.sidenstitle}>
     <div>
     <h1 className="text-warning text-center">Register</h1>
-        <form method='post' action='/register'>
-            <input name='name' placeholder='Name' required />
-            <input type='email' name='email' placeholder='Email' required />  
-            <input type='password' name='password' placeholder='Password' required />
-            <input type='submit' />  
+        <form className="text-center" method='post' action='/register'>
+            <input className="ml-3" name='name' placeholder='Name' required />
+            <input className="ml-3" type='email' name='email' placeholder='Email' required />  
+            <input className="ml-3" type='password' name='password' placeholder='Password' required />
+            <input className="ml-3" type='submit' />  
         </form>
         <a href='/login'>Login</a>
         <br/>
