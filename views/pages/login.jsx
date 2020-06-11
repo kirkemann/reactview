@@ -14,8 +14,10 @@ function Login(props) {
           <input className="mx-3" type='password' name='password' placeholder='Password' required />
           <input className="mx-3" type='submit' />  
         </form>
-        <a className="btn btn-danger btn-lg ml-3 my-3 text-center" href='/register'>Register</a>
-        <a className="btn btn-warning btn-lg ml-3 my-3 text-center" href='/'>Main</a>
+        <div className="text-center">
+          <a className="btn btn-danger btn-lg ml-3 my-3" href='/register'>Register</a>
+          <a className="btn btn-warning btn-lg ml-3 my-3" href='/'>Main</a>
+        </div>
     </div>
 
 </DefaultLayout>
