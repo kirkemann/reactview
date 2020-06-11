@@ -11,7 +11,7 @@ function Login(props) {
     <h1>Login</h1>
         <form className="form-group" method='post' action='/login'>
           <input type="email" className="form-control my-3" id="exampleFormControlInput1" placeholder='Email' required />  
-          <input type="password" className="form-control my-3" id="exampleFormControlInput1"placeholder='Password' required />
+          <input type='password' className="form-control my-3" id="exampleFormControlInput1" name='password' placeholder='Password' required />
           <input type='submit' />  
         </form>
         <a href='/register'>Register</a>
