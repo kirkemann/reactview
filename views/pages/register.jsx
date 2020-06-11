@@ -10,9 +10,9 @@ function Register(props) {
     <div>
     <h1 className="text-warning text-center">Register</h1>
         <form className="text-center" method='post' action='/register'>
-            <input className="ml-3" name='name' placeholder='Name' required />
-            <input className="ml-3" type='email' name='email' placeholder='Email' required />  
-            <input className="ml-3" type='password' name='password' placeholder='Password' required />
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dit Navn" required />
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required />  
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Password" required />
             <input className="ml-3" type='submit' />  
         </form>
         <div className="row">
