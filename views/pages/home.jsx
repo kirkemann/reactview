@@ -16,18 +16,17 @@ function Home(props) {
                         </div>
                     : 
                         <div>
-                            <ul>
-                                <li>Name: {props.name}</li>
-                                <li>Email: {props.email}</li>
-                            </ul>
+                            <div>
+                                <h5 className="text-center">Name: {props.name}</h5>
+                                <h5 className="text-center">Email: {props.email}</h5>
+                            </div>
 
                             
                             <div>
-                                <a href='/'>Main</a>
-                                <br/>
-                                <a href='./profil'>Ret Profil</a>
+                                <a class="btn btn-success btn-lg ml-3" href='/'>Main</a>
+                                <a class="btn btn-success btn-lg ml-3" href='./profil'>Ret Profil</a>
                             </div>
-                            <img src="/images/aktiviteter-15.jpg" alt="tog"/>
+                            <img className="rounded mx-auto d-block" src="/images/aktiviteter-15.jpg" alt="tog"/>
                         </div>  
             }
         </div>

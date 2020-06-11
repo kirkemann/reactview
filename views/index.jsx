@@ -17,9 +17,9 @@ function Index(props) {
                             </form>
                         </div>
                     : 
-                        <div>
-                            <a class="btn btn-primary" href='/login'>Login </a>
-                            <a class="btn btn-primary"href='/register'>Register </a>
+                        <div className="text-center">
+                            <a class="btn btn-success btn-lg ml-3" href='/login'>Login </a>
+                            <a class="btn btn-primary btn-lg"href='/register'>Register </a>
                         </div>
                     
             }
