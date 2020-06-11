@@ -15,9 +15,13 @@ function Register(props) {
             <input className="ml-3" type='password' name='password' placeholder='Password' required />
             <input className="ml-3" type='submit' />  
         </form>
-        <a href='/login'>Login</a>
-        <br/>
-        <a href='/'>Main</a>
+        <div className="row">
+          <div className="col-sm">
+            <a href='/login'>Login</a>
+            <br/>
+            <a href='/'>Main</a>
+          </div>
+        </div>
     </div>
 
 </DefaultLayout>
