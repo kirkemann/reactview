@@ -8,16 +8,19 @@ function Profil(props) {
 
     <DefaultLayout title={props.sidenstitle}>
     <div>
-    <h1>Ret profil</h1>
-        <form className="form-group" method='post' action='/profil'>
+    <h1 className="text-center">Ret profil</h1>
+        <form className="form-group text-center" method='post' action='/profil'>
             <input name='name' defaultValue={props.name} required />
             <input  type='email' defaultValue={props.email} required /> 
             <input type='text' name='id' required defaultValue={props.user.id} readOnly />
             <input type='submit' />  
         </form>
-        <a href='/login'>Login</a>
-        <br/>
-        <a href='/'>Main</a>
+
+        <div className="text-center">
+          <a className="btn btn-danger btn-lg ml-3 my-3" href='/login'>Login</a>
+
+          <a className="btn btn-danger btn-lg ml-3 my-3" href='/'>Main</a>
+        </div>
     </div>
 
 </DefaultLayout>
