@@ -10,13 +10,13 @@ function Login(props) {
     <div>
     <h1>Login</h1>
         <form method='post' action='/login'>
-          <input type='email' name='email' placeholder='Email' required />  
-          <input type='password' name='password' placeholder='Password' required />
-          <input type='submit' />  
+          <input className="mx-3" type='email' name='email' placeholder='Email' required />  
+          <input className="mx-3" type='password' name='password' placeholder='Password' required />
+          <input className="mx-3" type='submit' />  
         </form>
-        <a href='/register'>Register</a>
+        <a className="btn btn-danger btn-lg ml-3 my-3" href='/register'>Register</a>
         <br/>
-        <a href='/'>Main</a>
+        <a className="btn btn-warning btn-lg ml-3 my-3" href='/'>Main</a>
     </div>
 
 </DefaultLayout>
